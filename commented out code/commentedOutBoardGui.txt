@@ -1,0 +1,30 @@
+		// Puts the board onto the panel
+		/*
+		 * for (actionListI = 0; actionListI < N; actionListI++) { for
+		 * (actionListJ = 0; actionListJ < N; actionListJ++) {
+		 * //grid.add(boardButton[actionListI][actionListJ]); //
+		 * actionListenerHelperJ = i;
+		 * boardButton[actionListI][actionListJ].addActionListener(new
+		 * ActionListener() { public void actionPerformed(ActionEvent e) {
+		 * System.out.println("Hello");
+		 * boardButton[actionListI][actionListJ].setText("Hello"); } }); } }
+		 */
+
+		/*
+		 * for (int i = 0; i < boardButton.length; i++) {
+		 * boardButton.addActionListener(new ActionListener() { public void
+		 * actionPerformed(ActionEvent e) { boardButton[i][j].setText("" +
+		 * mineSweeper.getGrid()[i][j]); } }); }
+		 */
+
+		/*
+		 * for (int i = 0; i < mineSweeper.getHeight(); i++) { for (int j = 0; j
+		 * < mineSweeper.getWidth(); j++) { boardButton.addActionListener(new
+		 * ActionListener() { public void actionPerformed(ActionEvent e) {
+		 * boardButton[i][j].setText("" + mineSweeper.getGrid()[i][j]); } });
+		 * 
+		 * } }
+		 */
+		/*
+		 * JButton btnGrid = new JButton("New button"); grid.add(btnGrid);
+		 */
